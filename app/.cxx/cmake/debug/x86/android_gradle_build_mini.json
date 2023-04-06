@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Public\\AppData\\SDK\\android-ndk-r17c\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "app-Debug-x86": {
+      "artifactName": "app",
+      "buildCommand": "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\debug\\x86\" app",
+      "abi": "x86",
+      "output": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libapp.so"
+    }
+  }
+}

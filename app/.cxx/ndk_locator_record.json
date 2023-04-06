@@ -1,0 +1,65 @@
+{
+  "ndkFolder": "E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is E:\\OneOne\\File\\Android\\AndroidSDK"
+    },
+    {
+      "level": "INFO",
+      "message": "Because no explicit NDK was requested, the default version \u002720.0.5594570\u0027 for this Android Gradle Plugin will be used"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\16.1.4479499 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\21.0.6113669 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\21.1.6352462 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\21.4.7075529 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\22.1.7171670 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\23.0.7344513 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\25.1.8937393 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested NDK version 20.0.5594570 at E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570"
+    }
+  ]
+}

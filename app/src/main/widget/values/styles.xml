@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ColorPickerDialog" parent="Theme.AppCompat.Light.Dialog"/>
+
+    <declare-styleable name="CircularActionMenu">
+        <attr format="dimension|reference" name="cam_radius"/>
+        <attr format="integer" name="cam_angle"/>
+    </declare-styleable>
+</resources>

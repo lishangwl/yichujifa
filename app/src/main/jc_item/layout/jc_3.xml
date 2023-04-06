@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <ImageView
+                android:src="@mipmap/ic_jc_1"
+                android:layout_width="20dp"
+                android:visibility="gone"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="什么是快捷指令？"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:id="@+id/text_2"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:id="@+id/ex"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:text="举个例子:用户将打开朋友圈的几个动作组合成“一键访问朋友圈的自动化”，那么用户以后每天只需要通过定时或者手动点击这个自动化并可以快速打开朋友圈，而无需点击重复的的动作。"
+            android:textColor="#90000000"
+            android:id="@+id/text_1"
+            android:visibility="gone"
+            android:textSize="13dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

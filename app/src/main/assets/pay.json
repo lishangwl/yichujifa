@@ -1,0 +1,14 @@
+{
+  "AliPay":{
+    "app_id":"支付宝APPID",
+    "RSA_PRIVATE":"应用私钥",
+    "sign_type":"签名类型:如RSA2",
+    "notify_url":"回调地址"
+  },
+  "WXPay":{
+    "app_id":"wxe7d82bdec91f0db6",
+    "mch_id":"1565506871",
+    "app_key":"7b712aede1c42394592f9a1e45bba0d3",
+    "notify_url":"回调地址"
+  }
+}

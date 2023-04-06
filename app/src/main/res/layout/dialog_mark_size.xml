@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+    <esqeee.xieqing.com.eeeeee.library.MarkSizeView
+        android:layout_width="match_parent"
+        android:id="@+id/mark_size"
+        app:markedColor="#00000000"
+        app:unMarkedColor="#80000000"
+        android:layout_height="match_parent" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/capture_tips"
+        android:layout_centerInParent="true"
+        android:text="在屏幕上划取区域截屏"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

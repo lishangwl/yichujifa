@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="listDialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/list_dialog_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/list_dialog_fade_out</item>
+    </style>
+
+    <style name="com_divider_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#F2F2F2</item>
+    </style>
+
+    <style name="com_vertical_line_1">
+        <item name="android:layout_width">@dimen/com_divider_line</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/com_font_color_E3E3E3</item>
+    </style>
+
+</resources>

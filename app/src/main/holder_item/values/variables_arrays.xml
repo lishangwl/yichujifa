@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="variable_types">
+        <item>文本型</item>
+        <item>整数型</item>
+        <item>字节集</item>
+        <item>布尔型</item>
+        <item>文本型数组</item>
+        <item>控件</item>
+        <item>控件数组</item>
+        <item>矩型</item>
+    </string-array>
+
+    <string-array name="assign_types">
+        <item>等于</item>
+        <item>不等于</item>
+        <item>大于</item>
+        <item>小于</item>
+        <item>大于等于</item>
+        <item>小于等于</item>
+        <item>包含</item>
+    </string-array>
+</resources>

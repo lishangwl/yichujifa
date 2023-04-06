@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UIDesign</string>
+    <array name="bool">
+        <item>真</item>
+        <item>假</item>
+    </array>
+</resources>

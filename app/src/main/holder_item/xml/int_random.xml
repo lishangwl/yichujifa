@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="1" save="var"/>
+    <hr/>
+    <input title="最小值" defult="" hint="请输入" save="min" inputType="int"/>
+    <hr/>
+    <input title="最大值" defult="" hint="请输入" save="max" inputType="int"/>
+</root>

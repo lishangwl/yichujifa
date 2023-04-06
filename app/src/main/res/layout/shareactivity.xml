@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#50e4e4e4"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="分享脚本"
+            app:navigationIcon="@mipmap/ic_back"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="1dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#fff"
+        android:id="@+id/card"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="韩信秒换名刀"
+                android:id="@+id/title"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="220dp"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/srcode"
+                    android:id="@+id/srcode"
+                    android:scaleType="fitXY"
+                    android:layout_height="match_parent" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="#f0ffffff"
+                    android:id="@+id/loading"
+                    android:layout_height="match_parent">
+                    <ProgressBar
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:background="#20868686"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="扫一扫下载一触即发App使用该脚本"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="扫一扫下载一触即发App使用该脚本"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:id="@+id/pixel"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:src="@drawable/srcode"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:visibility="gone"
+                    android:layout_weight="0"
+                    android:layout_height="65dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="shareQQ"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/qq"
+                android:background="@drawable/share_item_1"
+                android:padding="10dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="分享到QQ"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="shareWX"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/wx"
+                android:background="@drawable/share_item_2"
+                android:padding="10dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="分享到微信"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="save"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@mipmap/ic_save"
+                android:background="@drawable/share_item_3"
+                android:padding="7dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="保存到相册"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="shareFile"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@mipmap/ic_save"
+                android:background="@drawable/share_item_3"
+                android:padding="7dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="以文件分享"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

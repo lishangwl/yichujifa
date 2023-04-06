@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <segment title="模式" texts="手动|自动" save="mode" defult="0"/>
+</root>

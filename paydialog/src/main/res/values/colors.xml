@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <!--主色-->
+    <color name="colorMain">#45a989</color>
+    <!--不可点击-->
+    <color name="colorUnClickable">#9fd1c1</color>
+    <!--背景色-->
+    <color name="colorBackground">#F6F6F6</color>
+    <!--分割线-->
+    <color name="colorDivide">#F6F6F6</color>
+    <!--辅助色-->
+    <color name="colorBlue">#219dff</color>
+    <!--辅助色-->
+    <color name="colorGreen">#77bd02</color>
+    <!--辅助色-->
+    <color name="colorYellow">#ffb703</color>
+
+    <color name="colorRed">#FA6344</color>
+    <!--按钮被选中的颜色-->
+    <color name="colorUnSelected">#7Dff6400</color>
+    <!--头像边框颜色-->
+    <color name="colorAvatarBorder">#e4e4e4</color>
+
+    <color name="colorRoute">#0FC200</color>
+
+    <!--dialog使用的白色透明-->
+    <color name="white_transparent_f4">#f4ffffff</color>
+    <!--黑色透明-->
+    <color name="black_transparent_aa">#88000000</color>
+
+    <!--深灰字体颜色-->
+    <color name="colorTextDeep">#333333</color>
+    <!--中灰字体颜色-->
+    <color name="colorTextMiddle">#666666</color>
+    <!--浅灰字体颜色-->
+    <color name="colorTextSmall">#999999</color>
+    <!--hint文字颜色-->
+    <color name="colorTextHint">#cdcdcd</color>
+
+    <color name="color_text_gray">#989898</color>
+    <!--灰色失效-->
+    <color name="text_color_invalid">#b3b3b3</color>
+    <!--深灰_提示性文字-->
+    <color name="btn_green_noraml">#77bd02</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 退出按钮 -->
+    <color name="logout">#FF5555</color>
+</resources>

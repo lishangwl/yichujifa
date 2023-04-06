@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#50e4e4e4"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="摇动触发"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="设置"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/title1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#fff"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="45dp">
+        <Switch
+            android:layout_marginRight="8dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:text="触发震动"
+            android:id="@+id/switchid2"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/item_1"
+        android:onClick="onClick"
+        android:background="@drawable/click_item"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@null"
+            android:padding="5dp"
+            android:background="@drawable/assistive_touch_background2"
+            android:src="@drawable/touch"
+            android:layout_marginLeft="16dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="未配置"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="绕横轴(屏幕短边)转动"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_weight="0"
+            android:padding="6dp"
+            android:src="@mipmap/ic_right"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:id="@+id/item_2"
+        android:onClick="onClick"
+        android:background="@drawable/click_item"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@null"
+            android:padding="5dp"
+            android:background="@drawable/assistive_touch_background2"
+            android:src="@drawable/touch"
+            android:layout_marginLeft="16dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="未配置"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="绕横轴(屏幕长边)转动"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_weight="0"
+            android:padding="6dp"
+            android:src="@mipmap/ic_right"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/item_3"
+        android:onClick="onClick"
+        android:background="@drawable/click_item"
+        android:gravity="center_vertical"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:padding="5dp"
+            android:tint="@null"
+            android:background="@drawable/assistive_touch_background2"
+            android:src="@drawable/touch"
+            android:layout_marginLeft="16dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="未配置"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="绕Z轴转动"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_weight="0"
+            android:padding="6dp"
+            android:src="@mipmap/ic_right"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="触发摇晃度"
+            android:textColor="#000"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0"
+            android:layout_height="wrap_content" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:max="60"
+            android:min="1"
+            android:id="@+id/seekBar"
+            android:progress="10"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_margin="16dp"
+        android:text="提示：摇晃度越小越容易触发。\n建议：手势遥感触发应熟悉掌握一定规律后使用，可尝试一下，熟练使用后可快速方便的触发快捷指令等！"
+        android:layout_height="wrap_content" />
+</LinearLayout>

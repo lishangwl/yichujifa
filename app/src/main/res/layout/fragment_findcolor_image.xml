@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="当前选中颜色:#FFFFFFFF"
+            android:padding="5dp"
+            android:id="@+id/findColor_showColor"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:text="确定"
+            android:id="@+id/findColor_selectColor"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="选择图片"
+            android:id="@+id/findColor_chooseImage"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:id="@+id/findColor_image"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/biubiubiu"
+            android:id="@+id/findColor_zx"
+            android:layout_gravity="center"
+            android:layout_height="60dp" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_weight="0"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:text="左"
+            android:layout_weight="1"
+            android:id="@+id/findColor_left"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:text="右"
+            android:layout_weight="1"
+            android:id="@+id/findColor_right"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="上"
+            android:id="@+id/findColor_top"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:text="下"
+            android:layout_weight="1"
+            android:id="@+id/findColor_bottom"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

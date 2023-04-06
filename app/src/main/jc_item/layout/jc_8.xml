@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <ImageView
+                android:src="@mipmap/ic_jc_1"
+                android:visibility="gone"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="是否要ROOT?"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:id="@+id/text_2"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:id="@+id/ex"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <TextView
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:text="这是一款真正意义上的免ROOT自动化工具，用户只需要开启辅助功能(无障碍功能)即可。"
+            android:textColor="#90000000"
+            android:id="@+id/text_1"
+            android:textSize="13dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

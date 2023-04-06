@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Xieqing\androidStudioWorkspace\yichujifa\app\.cxx\cmake\release\x86'
+ninja: no work to do.

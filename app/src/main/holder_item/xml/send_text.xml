@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <segment title="发送方式" texts="ROOT|输入法" save="type" defult="0"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入发送的文本" save="text"/>
+</root>

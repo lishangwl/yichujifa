@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingTop="16dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="@drawable/dialog_permission_click_1"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:id="@+id/item_1"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@mipmap/ic_dialog_permisson_notyfcation"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="允许发送通知"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="@drawable/dialog_permission_click_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/item_2"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@mipmap/ic_dialog_permisson_notyfcation2"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="允许读通知栏"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="@drawable/dialog_permission_click_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/item_3"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@mipmap/ic_dialog_permisson_float"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="悬浮应用之上"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="@drawable/dialog_permission_click_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/item_4"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@mipmap/ic_dialog_permisson_android"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="查看应用情况"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

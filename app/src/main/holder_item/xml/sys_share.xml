@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="分享文字" inputType="string" defult="" hint="可选" save="text"/>
+    <hr/>
+    <input title="分享图片路径" inputType="string" defult="" hint="可选" save="image"/>
+</root>

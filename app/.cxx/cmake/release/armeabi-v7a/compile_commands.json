@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=E:/OneOne/File/Android/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/OneOne/File/Android/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dapp_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles\\app.dir\\src\\main\\cpp\\app.cpp.o -c E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifa\\app\\src\\main\\cpp\\app.cpp",
+  "file": "E:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/cpp/app.cpp"
+}
+]

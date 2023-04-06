@@ -1,0 +1,12 @@
+# ninja log v5
+0	137	702475915	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	d5903dec57dc2f0e
+138	227	702475916	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libapp.so	5d7839943f4cf14e
+0	11	0	clean	3baa9f8d2e4acd6
+1	110	702478004	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	d5903dec57dc2f0e
+110	200	702478004	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libapp.so	5d7839943f4cf14e
+0	12	0	clean	3baa9f8d2e4acd6
+0	10	0	clean	3baa9f8d2e4acd6
+1	149	702492207	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	d5903dec57dc2f0e
+149	245	702492207	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libapp.so	5d7839943f4cf14e
+0	12	0	clean	3baa9f8d2e4acd6
+0	11	0	clean	3baa9f8d2e4acd6

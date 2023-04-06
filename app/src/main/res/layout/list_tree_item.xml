@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/id_treenode_icon"
+        android:src="@mipmap/ic_ex_m"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:text="lable"
+        android:id="@+id/id_treenode_label"
+        android:layout_height="40dp" />
+</LinearLayout>

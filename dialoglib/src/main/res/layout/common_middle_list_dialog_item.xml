@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/com_font_color_FFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mTv_show"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/com_padding_15"
+        android:paddingTop="@dimen/com_padding_15"
+        android:textSize="16dp" />
+
+    <TextView
+        style="@style/com_divider_line"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/com_padding_10"
+        android:layout_marginRight="@dimen/com_padding_10" />
+
+</LinearLayout>

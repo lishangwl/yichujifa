@@ -1,0 +1,100 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
+
+def comiple_sdk_version = 25
+def build_tool_version = "25.0.3"
+def support_version = "25.4.0"
+def min_sdk_version = 9
+def target_sdk_version = 25
+def version_code = 15
+def version_name = "1.2.2"
+
+def bintrayRepoName = "android-maven"
+def bintrayName = "albertlii"
+def bintrayGroupId = "com.liyi.view"
+def bintrayArtifactId = "flowview"
+def bintrayDesc = "flowview"
+def bintrayWebSite = "https://github.com/albert-lii/FlowView"
+def bintrayLicences = ['Apache-2.0']
+
+android {
+    compileSdkVersion comiple_sdk_version
+    buildToolsVersion build_tool_version
+
+    defaultConfig {
+        minSdkVersion min_sdk_version
+        targetSdkVersion target_sdk_version
+        versionCode version_code
+        versionName version_name
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation 'com.android.support:appcompat-v7:' + support_version
+    testImplementation 'junit:junit:4.12'
+}
+
+//publish {
+//    // bintray 用户名
+//    userOrg = bintrayName
+//    // 要传到的 maven 的名字。你可能有多个 maven，要传哪个写哪个。
+//    repoName = bintrayRepoName
+//    // jcenter 上的路径
+//    groupId = bintrayGroupId
+//    // 项目名称
+//    artifactId = bintrayArtifactId
+//    // 版本号
+//    publishVersion = version_name
+//    // 描述，不重要
+//    desc = bintrayDesc
+//    // 网站，不重要；尽量模拟 github 上的地址
+//    website = bintrayWebSite
+//    licences = bintrayLicences
+//}
+
+// 指定编码
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+// 打包源码
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    failOnError false
+    source = android.sourceSets.main.java.sourceFiles
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    classpath += configurations.compile
+}
+
+// 制作文档(Javadoc)
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}

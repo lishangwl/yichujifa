@@ -1,0 +1,7 @@
+Executable : E:\OneOne\File\Android\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\OneOne\Projects\Android\AndroidProjects\yichujifa\app\.cxx\cmake\release\armeabi-v7a
+app
+jvmArgs : 
+

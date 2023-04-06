@@ -1,0 +1,6 @@
+# ninja log v5
+1	672	625749825	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	9ee373bb945b1823
+672	1262	625749825	../../../../build/intermediates/cmake/release/obj/x86/libapp.so	295ecb3d4a31c14
+0	86	0	clean	762accb85eb0e942
+2	743	633706538	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	9ee373bb945b1823
+743	1390	633706539	../../../../build/intermediates/cmake/release/obj/x86/libapp.so	295ecb3d4a31c14

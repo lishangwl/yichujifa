@@ -1,0 +1,26 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt",
+    "tag": "debug|x86"
+  }
+]

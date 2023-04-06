@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_dark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/id_main"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="64dp"
+            android:layout_height="64dp">
+            <ImageView
+                android:id="@+id/id_img"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:tint="@color/white"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1">
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:id="@+id/id_repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动化执行中，点击右侧停止" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/id_auto_stop"
+            android:padding="18dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/ic_delete"
+            android:tint="@color/white" />
+    </LinearLayout>
+</LinearLayout>

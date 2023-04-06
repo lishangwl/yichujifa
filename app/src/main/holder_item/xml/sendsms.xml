@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="收信人" inputType="string" defult="" hint="请输入" save="phone"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入发送短信内容" save="text"/>
+</root>

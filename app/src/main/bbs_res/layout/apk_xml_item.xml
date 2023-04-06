@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:background="@drawable/click_item"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/jb_256"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/name"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Path"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="9dp"
+            android:id="@+id/path"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/addfolder"
+        android:layout_weight="0"
+        android:padding="8dp"
+        android:layout_height="40dp" />
+</LinearLayout>

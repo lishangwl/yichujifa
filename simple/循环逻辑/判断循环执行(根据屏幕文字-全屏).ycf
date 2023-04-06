@@ -1,0 +1,6 @@
+<title>判断循环执行(根据屏幕文字-全屏)</title>
+<repeat>1</repeat>
+<count>2</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A52%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%7D%2C%22trueDo%22%3A%7B%22actions%22%3A%5B%7B%22actionType%22%3A55%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22text%22%3A%22%E5%B7%B2%E6%89%BE%E5%88%B0%EF%BC%81%EF%BC%81%22%7D%7D%2C%7B%22actionType%22%3A56%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%22text%22%3A%22%E8%87%AA%E7%94%B1%E6%B7%BB%E5%8A%A0%E5%91%BD%E4%BB%A4%22%7D%7D%5D%7D%2C%22condition%22%3A%7B%22actionType%22%3A44%2C%22param%22%3A%7B%22text%22%3A%22%E4%BD%A0%E5%A5%BD%22%7D%7D%7D%2C%7B%22actionType%22%3A56%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%22text%22%3A%22%E7%82%B9%E5%87%BB%E4%B8%8A%E9%9D%A2%E4%BF%AE%E6%94%B9%E5%9B%BE%E6%A0%87%E8%BF%9B%E8%A1%8C%E4%BF%AE%E6%94%B9%E6%9D%A1%E4%BB%B6%E3%80%82%22%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

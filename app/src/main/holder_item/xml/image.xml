@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <seek title="识别精确度" max="100" defult="80" save="accetrue"/>
+    <hr/>
+    <segment-assgin title="识别执行" texts="点击|长按|赋值" save="type" defult="0"/>
+</root>

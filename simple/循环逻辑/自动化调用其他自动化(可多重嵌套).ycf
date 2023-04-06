@@ -1,0 +1,6 @@
+<title>自动化调用其他自动化(可多重嵌套)</title>
+<repeat>1</repeat>
+<count>2</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A5%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A17%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22actionName%22%3A%22%E6%89%93%E5%BC%80%E9%80%9A%E7%9F%A5%E6%A0%8F%22%2C%22actionId%22%3A%22E331841BE6F074B27A9446D6805CB263%22%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

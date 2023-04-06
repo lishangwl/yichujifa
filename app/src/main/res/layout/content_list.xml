@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#50e4e4e4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/swipe"
+        android:layout_height="match_parent">
+        <esqeee.xieqing.com.eeeeee.widget.NoScrollRecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/listView"
+            android:layout_height="match_parent"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="165dp"
+        app:layout_behavior="esqeee.xieqing.com.eeeeee.widget.FixFabBehavior"
+        android:src="@mipmap/ic_add"/>
+
+    <esqeee.xieqing.com.eeeeee.widget.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="165dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:visibility="gone"
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        app:layout_behavior="esqeee.xieqing.com.eeeeee.widget.FixFabBehavior"
+        android:src="@drawable/ic_notification"/>
+</FrameLayout>

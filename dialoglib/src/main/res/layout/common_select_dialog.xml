@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_container"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/common_dialog_corner_bg">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/app_prompt"
+        android:textColor="@color/com_font_color_4a4a4a"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dialog_content_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_title"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:gravity="left"
+        android:textColor="@color/com_font_color_4a4a4a"
+        android:textSize="@dimen/com_font_size_14" />
+
+    <RelativeLayout
+        android:id="@+id/dialog_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_padding_48"
+        android:layout_below="@+id/dialog_content_message"
+        android:layout_marginTop="12dp"
+        android:visibility="visible">
+
+        <View style="@style/com_divider_line" />
+
+        <View
+            android:id="@+id/center_line"
+            style="@style/com_vertical_line_1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/dialog_left_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/center_line"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/app_cancel"
+            android:textColor="@color/com_font_color_4a4a4a"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dialog_right_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/center_line"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/app_confirm"
+            android:textColor="@color/com_font_color_4a4a4a"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_one_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_padding_48"
+        android:layout_below="@+id/dialog_content_message"
+        android:layout_marginTop="12dp"
+        android:visibility="gone">
+
+        <View style="@style/com_divider_line" />
+
+        <TextView
+            android:id="@+id/dialog_confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/app_confirm"
+            android:textColor="@color/com_font_color_4a4a4a"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

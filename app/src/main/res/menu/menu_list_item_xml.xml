@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item
+        android:id="@+id/item_rename"
+        android:title="重命名"/>
+    <item
+        android:id="@+id/item_copy"
+        android:title="复制"/>
+    <item
+        android:id="@+id/item_move"
+        android:title="移动"/>
+    <item
+        android:id="@+id/item_apk"
+        android:title="打包Apk"/>
+    <item
+        android:id="@+id/item_delete"
+        android:title="删除"/>
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esqeee.xieqing.com.eeeeee.ui.floatmenu.CircularActionMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    app:cam_angle="165"
+    app:cam_radius="80dp">
+
+    <ImageView
+        android:id="@+id/script_list"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_green"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:src="@mipmap/ic_menu"
+        android:tint="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/layout_inspect"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_blue"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:src="@drawable/jb_256"/>
+
+    <ImageView
+        android:id="@+id/stopAll"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_yellow"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:tint="@android:color/white"
+        android:src="@mipmap/ic_stop_script"/>
+
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_gray"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:tint="@android:color/white"
+        android:src="@mipmap/ic_settings"/>
+
+
+</esqeee.xieqing.com.eeeeee.ui.floatmenu.CircularActionMenu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item_1"
+            android:tag="https://www.showdoc.cc/368064980392042?page_id=2126183406535802"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="一触即发的操作动作概述"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item_2"
+            android:tag="https://www.showdoc.cc/368064980392042?page_id=2126183998202063"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="悬浮窗的设置与应用"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:id="@+id/text_2"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:id="@+id/ex"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:tag="https://www.showdoc.cc/368064980392042?page_id=2126184881104422"
+            android:id="@+id/item_3"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="循环的类型"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:tag="https://www.showdoc.cc/368064980392042?page_id=2126185712213364"
+            android:id="@+id/item_4"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="如何停止自动化"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

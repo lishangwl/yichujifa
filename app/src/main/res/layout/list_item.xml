@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:background="@drawable/click_item"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical|left"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/image"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="重复打开闪光灯"
+            android:id="@+id/title"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:gravity="top"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="重复次数:0"
+            android:id="@+id/repeat"
+            android:textColor="#70000000"
+            android:visibility="gone"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="包含动作:0"
+            android:textColor="#70000000"
+            android:id="@+id/actionCount"
+            android:visibility="gone"
+            android:textSize="11dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#50000000"
+            android:text="创建时间:2018年12月1日 22:31:56"
+            android:id="@+id/creatTime"
+            android:textSize="10dp"
+            android:visibility="gone"
+            android:gravity="bottom"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:id="@+id/enable"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#20868868"
+        android:layout_height="1px"/>
+</LinearLayout>

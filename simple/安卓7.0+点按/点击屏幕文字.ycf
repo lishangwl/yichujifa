@@ -1,0 +1,6 @@
+<title>点击屏幕文字</title>
+<repeat>1</repeat>
+<count>1</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A3%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22text%22%3A%22%E6%94%AF%E4%BB%98%E5%AE%9D%22%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

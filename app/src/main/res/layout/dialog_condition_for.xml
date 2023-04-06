@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="计次循环"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="循环次数（0 为无限循环）"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/condition"
+            android:padding="8dp"
+            android:inputType="number"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="条件达成   (如果还在次数内，则继续进行指定的动作)"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="点击编辑动作"
+            android:textColor="#ffffff"
+            android:id="@+id/editTrueCondition"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="条件未达成   (如果执行次数已经达到，则跳出循环，不再执行)"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#e4e4e4"
+            android:text="取消"
+            android:id="@+id/cannel"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:text="确定"
+            android:id="@+id/ok"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/holder_item/layout/activity_apk.xml" value="0.32760416666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/holder_item/layout/activity_detail.xml" value="0.17708333333333334" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/holder_item/layout/frgament_home_settings.xml" value="0.5" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/jc_item/layout/jc_1.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/jc_item/layout/jc_5.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/jc_item/layout/jc_6.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/fragment_home_item_add_bg.xml" value="0.56" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/home_bottom_popumenu_item_create_file_xml.xml" value="0.565625" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/home_bottom_popumenu_item_create_script.xml" value="0.22685185185185186" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/home_bottom_popumenu_item_create_xml.xml" value="0.565625" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.2677083333333333" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_comment_black_24dp.xml" value="0.5435185185185185" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_free_breakfast_black_24dp.xml" value="0.5435185185185185" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_insert_drive_file_white_24dp.xml" value="0.565625" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.5435185185185185" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_smartphone_black_24dp.xml" value="0.565625" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/drawable/ic_videocam_white_24dp.xml" value="0.524074074074074" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/activity_home.xml" value="0.2616216216216216" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/activity_home_bottom_menu_dialog.xml" value="0.5494791666666666" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/activity_splash.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/activity_splash_v2.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/content_list.xml" value="0.1" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/fragment_apps.xml" value="0.23229166666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/fragment_home_navigation.xml" value="0.4189189189189189" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/fragment_home_navigation_item_add.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/fragment_list.xml" value="0.5489583333333333" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/nav_header.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/layout/user_header.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/menu/activity_main6_drawer.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/menu/condition_menu.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/menu/main6.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/app/src/main/res/menu/menu_navigation_home.xml" value="0.5489583333333333" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa/paydialog/src/main/res/layout/pay_dialog_layout.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/holder_item/layout/activity_about.xml" value="0.534375" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/holder_item/layout/activity_detail.xml" value="0.33541666666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/holder_item/layout/user_login.xml" value="0.534375" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/holder_item/layout/user_pass.xml" value="0.534375" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/holder_item/layout/user_reg.xml" value="0.534375" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/res/layout/activity_introduce.xml" value="0.33541666666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/res/layout/activity_wechat_qr_code.xml" value="0.534375" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/res/layout/content_list.xml" value="0.33541666666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/res/layout/fragment_home_navigation.xml" value="0.33541666666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/src/main/res/layout/user_header.xml" value="0.33541666666666664" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/drawable/bg_round.xml" value="0.56875" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/drawable/relation_bg.xml" value="0.56875" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/drawable/update2_bg.xml" value="0.558974358974359" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/drawable/update_bg.xml" value="0.558974358974359" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/drawable/update_btn.xml" value="0.558974358974359" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/about.xml" value="0.5489583333333333" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/accessbility_record.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/action_item_desc.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_add.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_broswer.xml" value="0.5515625" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_introduce.xml" value="0.32518115942028986" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_main.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_main4.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_settings.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_splash.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/activity_wechat_qr_code.xml" value="0.5380434782608695" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/content_list.xml" value="0.5380434782608695" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/dialog_select.xml" value="0.5380434782608695" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fast_item.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/float_menu.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_apps.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_config.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_findcolor_image.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_list.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_model.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_shequ.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/fragment_xuanfuqiu.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/frgament_help.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/frgament_jc.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/layout_wx.xml" value="0.5380434782608695" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/list_item4.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/list_item_group.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/list_p.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/list_tree_item.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/nav_header.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/ops_item.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/p.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/popup_about.xml" value="0.5380434782608695" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/seekbar_prefs.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/shareactivity.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/switch_item.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/tag_view.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/tip.xml" value="0.5526041666666667" />
+        <entry key="..\:/OneOne/Projects/Android/AndroidProjects/yichujifa_2.9.1/app/src/main/res/layout/update.xml" value="0.5380434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="9" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

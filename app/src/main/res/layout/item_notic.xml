@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/id_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/id_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon"
+                android:padding="7dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+            <TextView
+                android:textSize="13sp"
+                android:id="@+id/id_name"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单击"
+                android:singleLine="true" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/id_auto_run"
+            android:padding="8dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_run"/>
+        <ImageView
+            android:id="@+id/id_auto_edit"
+            android:padding="14dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_write"/>
+        <ImageView
+            android:id="@+id/id_auto_close"
+            android:padding="14dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_close"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="0" save="var"/>
+    <hr/>
+    <input title="目录名" inputType="string" defult="" hint="请输入目录" save="path"/>
+    <hr/>
+    <input title="关键词" inputType="string" defult="" hint="请输入关键词" save="keyword"/>
+</root>

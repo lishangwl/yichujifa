@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="执行"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="手动执行"
+            android:id="@+id/radio_1"
+            android:checked="true"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="定时执行"
+            android:id="@+id/radio_2"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="文字"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="当含有关键词时执行"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <esqeee.xieqing.com.eeeeee.widget.ExpandableLayout
+            android:layout_width="match_parent"
+            android:id="@+id/screen_expend"
+            android:padding="0dp"
+            app:el_headerLayout="@layout/add_expend_screen"
+            app:el_contentLayout="@layout/add_expend_screen_content"
+            android:layout_height="wrap_content"/>
+        <esqeee.xieqing.com.eeeeee.widget.ExpandableLayout
+            android:layout_width="match_parent"
+            android:id="@+id/notiy_expend"
+            android:padding="0dp"
+            app:el_headerLayout="@layout/add_expend_notiy"
+            app:el_contentLayout="@layout/add_expend_notif_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

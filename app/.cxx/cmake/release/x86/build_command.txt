@@ -1,0 +1,21 @@
+Executable : C:\Users\Public\AppData\SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\Xieqing\androidStudioWorkspace\yichujifa\app
+-DCMAKE_CXX_FLAGS=-fvisibility=hidden -mllvm -fla -mllvm -sub -mllvm -seed=0xdeadbeafdddddddddddddddddddddd
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Public\AppData\SDK\android-ndk-r17c\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86
+-DANDROID_NDK=C:\Users\Public\AppData\SDK\android-ndk-r17c
+-DANDROID_PLATFORM=android-19
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DCMAKE_ANDROID_NDK=C:\Users\Public\AppData\SDK\android-ndk-r17c
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Xieqing\androidStudioWorkspace\yichujifa\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_MAKE_PROGRAM=C:\Users\Public\AppData\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=19
+-BD:\Xieqing\androidStudioWorkspace\yichujifa\app\.cxx\cmake\release\x86
+-GNinja
+jvmArgs : 
+
+Build command args:

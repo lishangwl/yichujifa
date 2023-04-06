@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:title="搜索"
+        android:icon="@mipmap/ic_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/action_clear"
+        android:title="清空日志"/>
+</menu>

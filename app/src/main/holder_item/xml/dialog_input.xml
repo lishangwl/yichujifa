@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="标题" inputType="string" defult="" hint="选填" save="title"/>
+    <hr/>
+    <input title="提示内容" inputType="string" defult="" hint="选填" save="hint"/>
+    <hr/>
+    <input title="默认内容" inputType="string" defult="" hint="选填" save="default"/>
+    <hr/>
+    <var title="输入返回变量" varType="0" save="var"/>
+</root>

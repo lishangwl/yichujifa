@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="详情"
+            app:navigationIcon="@mipmap/ic_back"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:id="@+id/swipe"
+            android:layout_weight="1"
+            android:layout_marginBottom="45dp"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:fillViewport="true"
+                android:id="@+id/scrollView"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/clickbg"
+                    android:background="@drawable/click_item"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="20dp"
+                        android:id="@+id/title"
+                        android:textStyle="bold"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_height="wrap_content">
+                        <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+                            android:layout_width="30dp"
+                            android:src="@drawable/icon_56"
+                            android:id="@+id/user_header"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Avertar Name"
+                            android:textSize="13dp"
+                            android:id="@+id/user_name"
+                            android:textColor="#000"
+                            android:layout_marginLeft="8dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:layout_gravity="right|center_vertical"
+                            android:gravity="right"
+                            android:id="@+id/user_description"
+                            android:layout_marginLeft="16dp"
+                            android:textSize="12dp"
+                            android:layout_marginRight="16dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="来自于 Huawei P30 8.0 (1920 * 2180)"
+                        android:id="@+id/user_device"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:textSize="12dp"
+                        android:layout_marginTop="8dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:layout_height="wrap_content" />
+                    <esqeee.xieqing.com.eeeeee.view.RichEditor
+                        android:layout_width="match_parent"
+                        android:id="@+id/show"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_height="match_parent">
+
+                    </esqeee.xieqing.com.eeeeee.view.RichEditor>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="评论"
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_height="40dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:id="@+id/recylerView"
+                        android:layout_height="match_parent">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="没有更多评论了"
+                        android:gravity="center"
+                        android:id="@+id/noReplyShow"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="#e4e4e4"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="45dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            android:gravity="center_vertical"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:padding="6dp"
+            android:layout_height="45dp">
+            <TextView
+                android:text="说点什么..."
+                android:gravity="center"
+                android:id="@+id/a_reply"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:background="@drawable/acrtle_bottom_talk"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="16dp"
+                android:padding="10dp"
+                android:id="@+id/a_zan"
+                android:src="@mipmap/ic_zan"
+                android:layout_height="40dp" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_weight="0"
+                android:padding="8dp"
+                android:id="@+id/a_collect"
+                android:src="@mipmap/ic_collect"
+                android:layout_height="40dp" />
+        </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

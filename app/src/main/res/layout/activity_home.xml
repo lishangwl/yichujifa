@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_with_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yicu.yichujifa.ui.widget.ThemeBottomNavigationView
+            android:id="@+id/bnve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            app:elevation="0dp"
+            app:itemIconSize="22dp"
+            app:itemTextAppearanceActive="@style/homeBottomItemTextAppearanceActive"
+            app:itemTextAppearanceInactive="@style/homeBottomItemTextAppearanceActive"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_navigation_home" />
+
+        <esqeee.xieqing.com.eeeeee.widget.viewPager.NoSwipeViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bnve" />
+
+        <com.yicu.yichujifa.ui.widget.ThemeFloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:tint="#ffffff"
+            app:backgroundTint="@color/colorPrimary"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            app:rippleColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

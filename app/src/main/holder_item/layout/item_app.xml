@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="应用"
+            android:textColor="#000"
+            android:id="@+id/title"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/app"
+            android:gravity="center_vertical|right"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="一触即发"
+                android:layout_marginRight="8dp"
+                android:id="@+id/app_name"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="25dp"
+                android:id="@+id/app_icon"
+                android:layout_height="25dp" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

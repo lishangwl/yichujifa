@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="5" save="var"/>
+    <hr/>
+    <var title="控件数组变量" varType="6" save="var2"/>
+    <hr/>
+    <input title="索引" inputType="int" defult="0" hint="请输入索引" save="index"/>
+</root>

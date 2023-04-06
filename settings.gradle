@@ -1,0 +1,3 @@
+include ':app', ':codeutils', ':dialoglib', ':filechooser',':CodeEditor', ':inputborad', ':matisse', ':apkbuilder', ':settingsview',"flowview"
+include ':paydialog'
+include ':xqapppay'

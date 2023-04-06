@@ -1,0 +1,6 @@
+<title>模拟滑动(上下左右)</title>
+<repeat>1</repeat>
+<count>4</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A7%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A8%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A9%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A10%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

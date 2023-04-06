@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/drawablelayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:navigationIcon="@mipmap/ic_toggle"
+                app:title="设计"
+                android:background="@color/colorAccent"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:id="@+id/UILayout"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+            <View
+                android:layout_width="50dp"
+                android:id="@+id/selectedView"
+                android:visibility="gone"
+                android:background="@drawable/view_selected"
+                android:layout_height="50dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <include android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="end"
+        layout="@layout/design_ui_right"/>
+    <include android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        layout="@layout/design_ui_left"/>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/click_item"
+    android:layout_height="@dimen/holder_item_height">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/holder_item_padding"
+        android:paddingRight="@dimen/holder_item_padding"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="开关的标题"
+                android:id="@+id/holder_title"
+                style="@style/holder_item_title_style"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="开关的标题"
+                android:id="@+id/holder_summay"
+                style="@style/holder_item_summay_style"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Switch
+            android:layout_width="wrap_content"
+            android:id="@+id/holder_switch"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e4e4e4"/>
+</LinearLayout>

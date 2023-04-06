@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="起点横坐标" inputType="int" defult="0" hint="请输入" save="fX"/>
+    <hr/>
+    <input title="起点纵坐标" inputType="int" defult="0" hint="请输入" save="fY"/>
+    <hr/>
+    <input title="终点横坐标" inputType="int" defult="0" hint="请输入" save="tX"/>
+    <hr/>
+    <input title="终点纵坐标" inputType="int" defult="0" hint="请输入" save="tY"/>
+    <hr/>
+    <input title="持续时间" inputType="int" defult="500" hint="请输入" save="time"/>
+</root>

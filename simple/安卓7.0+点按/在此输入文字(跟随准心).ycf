@@ -1,0 +1,6 @@
+<title>在此输入文字(跟随准心)</title>
+<repeat>1</repeat>
+<count>1</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A15%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22x%22%3A525%2C%22y%22%3A276%2C%22text%22%3A%22%E4%BD%A0%E5%A5%BD%22%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <esqeee.xieqing.com.eeeeee.widget.XQPathView
+        android:layout_width="match_parent"
+        android:id="@+id/xqPathView"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/showMessage"
+        android:text="请在屏幕上滑动，或点击以录制手势"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/biubiubiu"
+        android:id="@+id/showPath"
+        android:layout_height="40dp" />
+</FrameLayout>

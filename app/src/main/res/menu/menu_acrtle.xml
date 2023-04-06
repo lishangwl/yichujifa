@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item android:title="复制">
+        <menu>
+            <item android:id="@+id/action_copy_title"
+                android:title="复制标题"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_copy_content"
+                android:title="复制内容"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_copy_acrtorName"
+                android:title="复制作者名称"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+    <item android:title="审核"
+        android:visible="false"
+        android:id="@+id/action_verify">
+        <menu>
+            <item android:id="@+id/action_verify_success"
+                android:title="审核通过"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_verify_error"
+                android:title="审核失败"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+    <item android:title="推荐"
+        android:visible="false"
+        android:id="@+id/action_choice">
+        <menu>
+            <item android:id="@+id/action_choice_success"
+                android:title="设置推荐"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_choice_error"
+                android:title="取消推荐"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+    <item android:title="作者"
+        android:visible="false"
+        android:id="@+id/action_user">
+        <menu>
+            <item android:id="@+id/black"
+                android:title="进黑屋"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/white"
+                android:title="出黑屋"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+    <item android:id="@+id/action_edit"
+        android:title="编辑"
+        android:visible="false"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/action_delete"
+        android:title="删除"
+        android:visible="false"
+        app:showAsAction="withText"/>
+
+</menu>

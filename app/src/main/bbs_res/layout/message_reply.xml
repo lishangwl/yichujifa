@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/click_item"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+                android:layout_width="25dp"
+                android:id="@+id/message_user"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="FromUserNickName"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:gravity="center_vertical"
+                android:id="@+id/message_nick"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="8:30"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/message_time"
+                android:textSize="11dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:layout_height="25dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="评论了你"
+            android:gravity="center_vertical"
+            android:id="@+id/message_title"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_height="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#50e4e4e4"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="\@你好"
+                android:id="@+id/message_reply_user"
+                android:textColor="@color/black"
+                android:layout_marginBottom="6dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="好的"
+                android:id="@+id/message_reply_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#e1e1e1"
+        android:layout_height="1px"/>
+</LinearLayout>

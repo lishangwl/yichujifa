@@ -1,0 +1,60 @@
+package esqeee.xieqing.com.eeeeee.adapter.holder_item;
+
+import android.content.Context;
+
+import butterknife.BindView;
+import esqeee.xieqing.com.eeeeee.R;
+import esqeee.xieqing.com.eeeeee.adapter.MyAdapter;
+import esqeee.xieqing.com.eeeeee.bean.JSONBean;
+import esqeee.xieqing.com.eeeeee.widget.ValotionEdittext;
+
+public class InputTextHolder extends BaseHolder{
+    @BindView(R.id.x)
+    ValotionEdittext x;
+    @BindView(R.id.y)
+    ValotionEdittext y;
+    @BindView(R.id.t)
+    ValotionEdittext t;
+
+    public InputTextHolder(Context context, MyAdapter adapter) {
+        super(context,R.layout.holder_input,adapter);
+    }
+
+    @Override
+    public void onBind(JSONBean jsonBean) {
+        super.onBind(jsonBean);
+        requestTime(true);
+        JSONBean param = jsonBean.getJson("param");
+
+        checkInputMathExpression(x);
+        checkInputMathExpression(y);
+        x.bindChangeString(param,"x");
+        y.bindChangeString(param,"y");
+        t.bindChangeString(param,"text");
+
+        x.setText(replace(param.getString("x")));
+        y.setText(replace(param.getString("y")));
+        t.setText(replace(param.getString("text")));
+
+    }
+
+
+
+    @Override
+    public void initView() {
+        x.bindFoucsView(findViewById(R.id.item_x));
+        y.bindFoucsView(findViewById(R.id.item_y));
+        t.bindFoucsView(findViewById(R.id.item_t));
+    }
+
+    @Override
+    public int getIcon() {
+        return R.drawable.ic_zhantie;
+    }
+
+    @Override
+    public String getName() {
+        return "输入内容";
+    }
+
+}

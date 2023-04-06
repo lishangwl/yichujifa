@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <segment title="动作" texts="完成|前往|搜索|发送|下项|上项" save="type" defult="0"/>
+</root>

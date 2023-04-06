@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="0" save="var"/>
+    <hr/>
+    <input title="待操作文本" inputType="string" defult="" hint="请输入" save="text"/>
+    <hr/>
+    <input title="替换起始位置" inputType="int" defult="" hint="请输入" save="replace_start"/>
+    <hr/>
+    <input title="替换结束位置" inputType="int" defult="" hint="请输入" save="replace_end"/>
+    <hr/>
+    <input title="用作替换的子文本" inputType="string" defult="" hint="请输入" save="replace"/>
+</root>

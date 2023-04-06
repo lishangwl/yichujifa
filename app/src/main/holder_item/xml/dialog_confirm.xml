@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="标题" inputType="string" defult="" hint="选填" save="title"/>
+    <hr/>
+    <input title="确认按钮标题" inputType="string" defult="" hint="选填" save="confirm"/>
+    <hr/>
+    <input title="取消按钮标题" inputType="string" defult="" hint="选填" save="cannel"/>
+    <hr/>
+    <var title="操作返回变量" varType="1" save="var"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入对话框内容（选填）" save="text"/>
+</root>

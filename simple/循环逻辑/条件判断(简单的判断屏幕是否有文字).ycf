@@ -1,0 +1,6 @@
+<title>条件判断(简单的判断屏幕是否有文字)</title>
+<repeat>1</repeat>
+<count>1</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A43%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%7D%2C%22trueDo%22%3A%7B%22actions%22%3A%5B%7B%22actionType%22%3A55%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22text%22%3A%22%E6%89%BE%E5%88%B0%E4%BA%86%E8%AF%A5%E6%96%87%E5%AD%97%22%7D%7D%5D%7D%2C%22falseDo%22%3A%7B%22actions%22%3A%5B%7B%22actionType%22%3A55%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22text%22%3A%22%E6%B2%A1%E6%9C%89%E6%89%BE%E5%88%B0%E8%AF%A5%E6%96%87%E5%AD%97%E3%80%82%22%7D%7D%5D%7D%2C%22condition%22%3A%7B%22actionType%22%3A44%2C%22param%22%3A%7B%22text%22%3A%22%E4%BD%A0%E5%A5%BD%22%7D%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

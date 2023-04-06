@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="文件路径" inputType="string" defult="" hint="请输入路径" save="path"/>
+    <hr/>
+    <input title="编码类型" inputType="string" defult="UTF-8" hint="请输入" save="chareset"/>
+    <hr/>
+    <switch title="追加文本" defult="false" save="append"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入文本数据" save="text"/>
+</root>

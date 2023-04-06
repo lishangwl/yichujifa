@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory
+        android:layout="@layout/preference_category_custom"
+        android:title="执行设置">
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:defaultValue="false"
+            android:title="识图显示矩形"
+            android:key="isDoPicActionShowRect"/>
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:defaultValue="true"
+            android:title="长按音量上键停止所有脚本"
+            android:key="isLongClickUpVloumStop"/>
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:defaultValue="false"
+            android:title="长按音量下键停止所有脚本"
+            android:key="isLongClickDownVloumStop"/>
+    </com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory>
+
+    <com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory
+        android:layout="@layout/preference_category_custom"
+        android:title="编辑设置">
+        <esqeee.xieqing.com.eeeeee.widget.MySeekBarPreference
+            android:title="准心大小"
+            android:defaultValue="30"
+            android:key="floatSize"/>
+    </com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory>
+
+    <com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory
+        android:layout="@layout/preference_category_custom"
+        android:title="参数设置">
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:key="rootMode"
+            android:defaultValue="false"
+            android:summary="开启后点击、滑动、长按都将使用root执行"
+            android:title="ROOT模式"/>
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:key="appLuanchGetRoot"
+            android:defaultValue="false"
+            android:summary=""
+            android:title="启动APP自动申请ROOT"/>
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:key="useRootOpenAccess"
+            android:defaultValue="false"
+            android:summary=""
+            android:title="使用ROOT自动开启无障碍"/>
+        <com.yicu.yichujifa.ui.widget.ThemeColorSwitchPreference
+            android:key="useRootCaptrue"
+            android:defaultValue="false"
+            android:summary="仅当系统低于5.0时使用ROOT截图"
+            android:title="使用ROOT截图"/>
+    </com.yicu.yichujifa.ui.widget.ThemeColorPreferenceCategory>
+</PreferenceScreen>

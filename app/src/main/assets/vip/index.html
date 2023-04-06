@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>会员开通</title>
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<link href="./files/style.css" rel="stylesheet" type="text/css">
+<style id="__web-inspector-hide-shortcut-style__" type="text/css">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head><style type="text/css" id="408364924257"></style>
+<body>
+
+<section class="aui-flexView">
+
+	<section class="aui-scrollView">
+		<div class="aui-member-head">
+			<div class="aui-member-box">
+				
+				<div class="aui-palace">
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-001.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>所有功能</h2>
+							<p>无限制使用</p>
+						</div>
+					</a>
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-002.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>分享脚本</h2>
+							<p>可选加密或不加密</p>
+						</div>
+					</a>
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-003.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>打包脚本</h2>
+							<p>生成APK</p>
+						</div>
+					</a>
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-004.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>客服优先</h2>
+						</div>
+					</a>
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-005.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>效率省钱</h2>
+						</div>
+					</a>
+					<a href="" class="aui-palace-grid">
+						<div class="aui-palace-grid-icon">
+							<img src="./files/icon-nav-001.png" alt="">
+						</div>
+						<div class="aui-palace-grid-text">
+							<h2>脚本交易</h2>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="aui-flex">
+			<div class="aui-flex-box">
+				<h2> <i class="icon icon-member"></i> 购买会员</h2>
+			</div>
+		</div>
+		<div class="aui-flex-member-list">
+			<ul class="aui-cho-box">
+				<li class="aui-flex" money="88">
+					<div class="aui-flex-time">
+						<h1>永久</h1>
+					</div>
+					<div class="aui-flex-box">
+						<h2>原价 <em>￥168</em></h2>
+					</div>
+					<div class="aui-flex-tag">
+						<h2><em>特惠</em> ￥88</h2>
+					</div>
+				</li>
+				<li class="aui-flex" money="58">
+					<div class="aui-flex-time">
+						<h1>12个月</h1>
+					</div>
+					<div class="aui-flex-box">
+						<h2>原价 <em>￥88</em></h2>
+					</div>
+					<div class="aui-flex-tag">
+						<h2><em>特惠</em> ￥58</h2>
+					</div>
+				</li>
+				<li class="aui-flex on" money="10">
+					<div class="aui-flex-time">
+						<h1>1个月</h1>
+					</div>
+					<div class="aui-flex-box">
+						<h2>原价 <em>￥15</em></h2>
+					</div>
+					<div class="aui-flex-tag">
+						<h2><em>特惠</em> ￥10</h2>
+					</div>
+				</li>
+				
+				
+
+			</ul>
+			<h3><i class="icon icon-info"></i>成为会员可享软件所有服务</h3>
+		</div>
+		<div class="aui-member-get">
+			<button onclick="pay()">立即购买</button>
+		</div>
+		<div class="aui-flex">
+			<div class="aui-flex-box">
+				
+			</div>
+		</div>
+
+		
+
+	</section>
+</section>
+
+<script type="text/javascript" src="./files/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$(".aui-cho-box li").click(function() {
+
+			$(this).addClass("on").siblings().removeClass("on");
+			tola();
+		});
+
+	});
+
+	function tola() {
+		var $li = $(".aui-cho-box").children("li.on");
+		var money = $li.children("i").text();
+		var count = $(".auiSks").val();
+		$(".aui-total span").text(money * count);
+	}
+
+	function pay() {
+		window.app.openVip($(".aui-cho-box").children("li.on").attr('money'))
+	}
+</script>
+
+<div id="Vidown_extension_alhnopeoagjmjfgcbnokcnagkecgdcdh" style="display: none;"></div><div id="vidown_float_panel_div" style="display: none;"><a id="vidown_float_panel_download" title="用【维棠】下载视频">维棠下载</a><span id="vidown_float_panel_sep">|</span><input type="button" value=" " id="vidown_float_panel_close" title="关闭"></div></body></html>

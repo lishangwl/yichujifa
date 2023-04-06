@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="搜索"
+        android:icon="@mipmap/ic_search"
+        android:iconTint="@color/white"
+        android:visible="false"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_notifcation"
+        android:orderInCategory="100"
+        android:title="通知"
+        app:actionProviderClass="esqeee.xieqing.com.eeeeee.widget.BadgeActionProvider"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_log"
+        android:orderInCategory="100"
+        android:title="运行日志"
+        android:icon="@mipmap/ic_debug"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="100"
+        android:title="扫一扫"
+        android:icon="@drawable/scan"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_import"
+        android:orderInCategory="100"
+        android:title="导入脚本"
+        app:showAsAction="withText" />
+    <item android:title="插件"
+        android:orderInCategory="100">
+        <menu>
+            <item
+                android:id="@+id/action_ime"
+                android:title="输入法"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="退出程序"
+        app:showAsAction="withText" />
+</menu>

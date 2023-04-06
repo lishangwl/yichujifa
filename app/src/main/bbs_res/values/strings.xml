@@ -1,0 +1,22 @@
+<resources>
+    <array name="bool">
+        <item>真</item>
+        <item>假</item>
+    </array>
+    <array name="gravity">
+        <item>靠上左对齐</item>
+        <item>靠上居中</item>
+        <item>靠上右对齐</item>
+        <item>靠中左对齐</item>
+        <item>靠中居中</item>
+        <item>靠中右对齐</item>
+        <item>靠下左对齐</item>
+        <item>靠下居中</item>
+        <item>靠下右对齐</item>
+    </array>
+    <array name="input">
+        <item>默认</item>
+        <item>输入数字</item>
+        <item>密码输入</item>
+    </array>
+</resources>

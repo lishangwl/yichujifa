@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <ImageView
+                android:src="@mipmap/ic_jc_1"
+                android:visibility="gone"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="关于部分手机横屏左边不精确的解决方法"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:id="@+id/text_2"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:id="@+id/ex"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <TextView
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:text="进行模拟点击的时候，一般来说靠近底部导航这边（左边）是正常的，右边点击可能有偏移，因为部分手机魔改的系统太严重，所以无法计算屏幕高度和宽度，因此会造成点击偏移。解决办法就是自己测试一下大概偏移多少，然后添加的时候往需要点击的地方进行判断 点击，就是你本在右边10的位置，这会要点击右边8的位置才可以点击."
+            android:textColor="#90000000"
+            android:id="@+id/text_1"
+            android:textSize="13dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

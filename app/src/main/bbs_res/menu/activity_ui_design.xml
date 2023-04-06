@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_preprotry"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="属性"/>
+
+    <item android:id="@+id/action_add"
+        android:title="添加"/>
+
+    <item android:id="@+id/action_save"
+        android:title="保存"/>
+    <item android:id="@+id/activity_preprotry"
+        app:showAsAction="always"
+        android:title="窗口"/>
+    <item android:id="@+id/action_delete"
+        android:visible="false"
+        android:title="删除"/>
+</menu>

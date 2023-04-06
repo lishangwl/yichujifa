@@ -1,0 +1,7 @@
+Executable : C:\Users\Public\AppData\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Xieqing\androidStudioWorkspace\yichujifa\app\.cxx\cmake\release\x86
+app
+jvmArgs : 
+

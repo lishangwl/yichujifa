@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "D:/Xieqing/androidStudioWorkspace/yichujifa/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android --gcc-toolchain=C:/Users/Public/AppData/SDK/android-ndk-r17c/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Public/AppData/SDK/android-ndk-r17c/sysroot -Dapp_EXPORTS -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/android/support/include -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fvisibility=hidden -mllvm -fla -mllvm -sub -mllvm -seed=0xdeadbeafdddddddddddddddddddddd -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\Public\\AppData\\SDK\\android-ndk-r17c\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "app-Release-x86": {
+      "buildCommand": "C:\\Users\\Public\\AppData\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\.cxx\\cmake\\release\\x86\" app",
+      "buildType": "release",
+      "toolchain": "122536651",
+      "abi": "x86",
+      "artifactName": "app",
+      "files": [
+        {
+          "src": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\src\\main\\cpp\\app.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libapp.so"
+    }
+  },
+  "toolchains": {
+    "122536651": {
+      "cppCompilerExecutable": "C:\\Users\\Public\\AppData\\SDK\\android-ndk-r17c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

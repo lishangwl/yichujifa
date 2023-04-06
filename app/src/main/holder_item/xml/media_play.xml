@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="音乐" defult="" hint="请输入SD卡路径或者url链接" save="text" inputType="string"/>
+    <hr/>
+    <seek title="播放音量" max="100" defult="80" save="volume"/>
+    <hr/>
+    <switch title="循环播放" defult="false" save="for"/>
+</root>

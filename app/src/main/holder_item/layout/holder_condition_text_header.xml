@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/color_header"
+    android:background="@drawable/click_item"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/condition_conditionView"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/action_3"
+            android:id="@+id/color_header_show"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="是否含有该内容"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/color_header_text"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

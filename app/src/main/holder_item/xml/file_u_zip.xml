@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="zip路径" inputType="string" defult="" hint="请输入" save="path"/>
+    <hr/>
+    <input title="解压到" inputType="string" defult="" hint="请输入" save="save"/>
+</root>

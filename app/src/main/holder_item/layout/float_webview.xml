@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="#e4e4e4"
+        android:paddingTop="26dp"
+        android:layout_height="75dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Title"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="50dp"
+            android:text="完成"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="right"
+            android:id="@+id/gone"
+            android:layout_weight="0"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <View
+        android:background="#70868686"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</LinearLayout>

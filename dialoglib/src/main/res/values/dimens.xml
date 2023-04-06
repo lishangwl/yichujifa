@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--字体大小-->
+    <dimen name="com_font_size_16">16dp</dimen>
+    <dimen name="com_font_size_14">14dp</dimen>
+
+    <!--间距大小-->
+    <dimen name="com_divider_line">1px</dimen>
+    <dimen name="com_padding_15">15dp</dimen>
+    <dimen name="com_padding_10">10dp</dimen>
+    <dimen name="com_padding_55">55dp</dimen>
+    <dimen name="com_padding_48">48dp</dimen>
+
+
+    <dimen name="padding_5">48dp</dimen>
+
+</resources>

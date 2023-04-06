@@ -1,0 +1,6 @@
+<title>打开系统应用与界面</title>
+<repeat>1</repeat>
+<count>6</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A0%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A24%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A22%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A18%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A25%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%2C%7B%22actionType%22%3A26%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

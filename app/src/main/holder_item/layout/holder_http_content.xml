@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/http_headers"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e4e4e4"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/add_header"
+        android:background="@drawable/click_item"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@mipmap/ic_add"
+            android:tint="@color/colorAccent"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="添加新请求头"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

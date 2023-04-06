@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="1" save="var"/>
+    <hr/>
+    <input title="待寻找的文本" inputType="string" defult="" hint="请输入" save="find"/>
+    <hr/>
+    <input title="起始位置" inputType="int" defult="0" hint="请输入" save="start"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入被寻找的文本数据" save="text"/>
+</root>

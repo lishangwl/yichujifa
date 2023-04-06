@@ -1,0 +1,6 @@
+<title>模拟滑动起点–终点(固定距离)</title>
+<repeat>1</repeat>
+<count>1</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A13%2C%22witeTime%22%3A1000%2C%22param%22%3A%7B%22start_x%22%3A187%2C%22start_y%22%3A1236%2C%22end_x%22%3A973%2C%22end_y%22%3A1410%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

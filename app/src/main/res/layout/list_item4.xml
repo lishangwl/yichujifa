@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/click_item"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical|left"
+        android:layout_height="wrap_content">
+        <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+            android:layout_width="45dp"
+            android:id="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/jb_256"
+            android:layout_height="45dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="重复打开闪光灯"
+                android:id="@+id/title"
+                android:textColor="#000"
+                android:textSize="13dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="重复次数:0"
+                android:id="@+id/repeat"
+                android:textColor="#70000000"
+                android:visibility="gone"
+                android:textSize="11dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="包含动作:0"
+                android:textColor="#70000000"
+                android:id="@+id/actionCount"
+                android:visibility="gone"
+                android:textSize="11dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="35dp"
+            android:padding="2dp"
+            android:id="@+id/item_run"
+            android:alpha="0.5"
+            android:background="@drawable/click_item"
+            android:src="@mipmap/ic_run"
+            android:layout_height="35dp" />
+        <ImageView
+            android:layout_width="35dp"
+            android:padding="8dp"
+            android:alpha="0.5"
+            android:background="@drawable/click_item"
+            android:src="@mipmap/ic_write"
+            android:id="@+id/item_edit"
+            android:layout_height="35dp" />
+        <ImageView
+            android:layout_width="35dp"
+            android:padding="5dp"
+            android:alpha="0.5"
+            android:id="@+id/item_more"
+            android:background="@drawable/click_item"
+            android:src="@mipmap/ic_more"
+            android:layout_height="35dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#20868868"
+        android:layout_marginLeft="74dp"
+        android:layout_height="1px"/>
+</LinearLayout>

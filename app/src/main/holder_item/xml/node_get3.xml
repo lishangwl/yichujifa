@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="5" save="var"/>
+    <hr/>
+    <var title="控件变量" varType="5" save="var2"/>
+</root>

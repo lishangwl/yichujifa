@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0"
+            android:text="识别相似度"
+            android:textColor="#000" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:max="255"
+            android:id="@+id/accetrue"
+            android:min="0"
+            android:progress="250"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e4e4e4"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="识别执行"
+            android:textColor="#000" />
+        <com.sevenheaven.segmentcontrol.SegmentControl
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/action"
+            app:selectedColor="@color/colorAccent"
+            app:normalColor="#FFFFFF"
+            app:cornerRadius="5dp"
+            app:separatorWidth="2px"
+            app:boundWidth="2px"
+            app:texts="点击|长按|赋值"
+            app:verticalGap="10dp"
+            app:horizonGap="10dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e4e4e4"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/assign"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e4e4e4"
+        android:layout_height="1px"/>
+    <include layout="@layout/holder_text_rect"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#e4e4e4"
+        android:layout_height="1px"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/item_t"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="待识别颜色"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="30dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/image"
+            android:background="#000000"
+            android:layout_gravity="right|center_vertical"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</LinearLayout>

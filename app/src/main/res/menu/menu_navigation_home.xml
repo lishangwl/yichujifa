@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_navigation"
+        android:checked="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home_bottom_nav_navigation" />
+
+    <item
+        android:id="@+id/id_auto"
+        android:icon="@drawable/ic_free_breakfast_black_24dp"
+        android:title="@string/home_bottom_nav_auto" />
+    <!--must set the item title to empty-->
+    <item
+        android:id="@+id/id_add"
+        android:title="" />
+    <item
+        android:id="@+id/id_community"
+        android:icon="@drawable/ic_comment_black_24dp"
+        android:title="@string/home_bottom_nav_community" />
+    <item
+        android:id="@+id/id_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/home_bottom_nav_setting" />
+</menu>

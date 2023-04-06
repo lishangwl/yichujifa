@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:padding="6dp"
+        android:id="@+id/edit_undo"
+        android:src="@drawable/edit_undo"
+        android:background="@drawable/click_item"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_redo"
+        android:id="@+id/edit_redo"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_image"
+        android:id="@+id/edit_image"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/icon_56"
+        android:id="@+id/edit_script"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_link"
+        android:id="@+id/edit_link"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:padding="6dp"
+        android:id="@+id/edit_indent"
+        android:src="@drawable/edit_indent"
+        android:background="@drawable/click_item"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_outdent"
+        android:id="@+id/edit_outdent"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_txt_color"
+        android:id="@+id/edit_txt_color"
+        android:background="@drawable/click_item"
+        android:padding="7dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_backcolor"
+        android:id="@+id/edit_backcolor"
+        android:background="@drawable/click_item"
+        android:padding="4dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_align_left"
+        android:id="@+id/edit_align_left"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_align_center"
+        android:id="@+id/edit_align_center"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_align_right"
+        android:id="@+id/edit_align_right"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_blockquote"
+        android:id="@+id/edit_blockquote"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/edit_bold"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:src="@drawable/edit_bold" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h1"
+        android:id="@+id/edit_h1"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h2"
+        android:id="@+id/edit_h2"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h3"
+        android:id="@+id/edit_h3"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h4"
+        android:id="@+id/edit_h4"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h5"
+        android:id="@+id/edit_h5"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_h6"
+        android:id="@+id/edit_h6"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_bullets"
+        android:id="@+id/edit_bullets"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_numbers"
+        android:id="@+id/edit_numbers"
+        android:background="@drawable/click_item"
+        android:padding="3dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_italic"
+        android:id="@+id/edit_italic"
+        android:background="@drawable/click_item"
+        android:padding="3dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/edit_strikethrough"
+        android:id="@+id/edit_strikethrough"
+        android:background="@drawable/click_item"
+        android:padding="6dp"
+        android:layout_height="30dp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item android:id="@+id/action_config"
+        android:title="配置"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_complete"
+        android:title="完成"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_save"
+        android:title="保存"
+        android:icon="@mipmap/ic_save"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/action_add"
+        android:title="添加动作"/>
+    <item android:id="@+id/action_var"
+        android:title="变量与常量表"
+        android:icon="@mipmap/ic_var"
+        app:showAsAction="withText"/>
+    <item android:title="操作">
+        <menu>
+            <item android:id="@+id/action_covert"
+                android:title="转代码"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_collose"
+                android:title="全部折叠"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/action_expland"
+                android:title="全部展开"
+                app:showAsAction="withText"/>
+        </menu>
+    </item>
+</menu>

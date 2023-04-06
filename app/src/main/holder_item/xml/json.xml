@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="0" save="var"/>
+    <hr/>
+    <input title="json数据" inputType="string" defult="" hint="请输入" save="json"/>
+    <hr/>
+    <input title="类名" inputType="string" defult="" hint="请输入" save="class"/>
+    <hr/>
+    <input title="键名" inputType="string" defult="" hint="请输入" save="key"/>
+    <hr/>
+    <input title="类型" inputType="int" defult="" hint="请输入" save="type"/>
+</root>

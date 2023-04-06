@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="条件判断"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="执行条件"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="点击添加条件"
+            android:textColor="#ffffff"
+            android:id="@+id/addCondition"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="#e4e4e4"
+            android:id="@+id/condition"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/action_3"
+                android:id="@+id/condition_image"
+                android:layout_height="50dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/condition_text"
+                    android:text="屏幕中是否含有关键字"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#90696969"
+                    android:text="点击更换条件"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="条件达成   (如果条件符合，则进行指定的动作)"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="点击编辑动作"
+            android:textColor="#ffffff"
+            android:id="@+id/editTrueCondition"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="条件未达成   (如果条件不符合，则进行指定的动作)"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="点击编辑动作"
+            android:textColor="#ffffff"
+            android:id="@+id/editFalseCondition"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#e4e4e4"
+            android:text="取消"
+            android:id="@+id/cannel"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:text="确定"
+            android:id="@+id/ok"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

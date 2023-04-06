@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:id="@+id/scale"
+        android:background="@drawable/p_bg"
+        android:src="@mipmap/ic_android"
+        android:padding="10dp"
+        android:alpha="0.5"
+        android:layout_height="40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

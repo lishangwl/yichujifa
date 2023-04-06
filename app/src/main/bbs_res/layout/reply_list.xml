@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/click_item"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingRight="16dp"
+        android:layout_height="match_parent">
+        <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+            android:layout_width="30dp"
+            android:id="@+id/user_head"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/colorAccent"
+                android:text="User Name"
+                android:id="@+id/user_name"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:id="@+id/user_content"
+                android:text="Here is the content!"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/image_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:scaleType="centerCrop"
+                    android:background="#e4e4e4"
+                    android:id="@+id/user_image"
+                    android:layout_height="180dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="4dp"
+                    android:textSize="11dp"
+                    android:textColor="#fff"
+                    android:id="@+id/image_long"
+                    android:visibility="gone"
+                    android:text="长图"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="10 min ago"
+                    android:layout_weight="1"
+                    android:id="@+id/user_time"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/user_reply"
+                    android:layout_weight="0"
+                    android:padding="10dp"
+                    android:background="@drawable/click_item"
+                    android:src="@mipmap/ic_reply"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#50e4e4e4"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="1px"/>
+
+</LinearLayout>

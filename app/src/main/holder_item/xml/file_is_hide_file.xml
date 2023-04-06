@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="3" save="var"/>
+    <hr/>
+    <input title="目录名或文件名" inputType="string" defult="" hint="目录名或文件名" save="path"/>
+</root>

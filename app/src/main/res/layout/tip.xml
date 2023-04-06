@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/web"
+        android:background="@drawable/update_bg"
+        android:layout_height="500dp">
+    </WebView>
+</LinearLayout>

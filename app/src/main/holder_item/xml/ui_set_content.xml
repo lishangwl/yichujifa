@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="组件名称" inputType="string" defult="" hint="请输入" save="name"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入值" save="text"/>
+</root>

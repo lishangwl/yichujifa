@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="添加自动化" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <FrameLayout
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e4e4e4">
+
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            android:background="#BEBEBE"
+            android:gravity="center_vertical"
+            android:id="@+id/valotion"
+            android:layout_gravity="bottom"
+            android:visibility="gone"
+            android:textColor="@color/com_font_color_FFFFF"
+            android:layout_height="wrap_content" >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:onClick="showOrHideVolation"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="45dp"
+                    android:text="变量"
+                    android:textColor="#000"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content" />
+            </androidx.cardview.widget.CardView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:id="@+id/flow"
+                android:visibility="gone"
+                android:layout_height="120dp">
+                <com.liyi.flow.FlowView
+                    android:id="@+id/flowVi"
+                    android:background="#BEBEBE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

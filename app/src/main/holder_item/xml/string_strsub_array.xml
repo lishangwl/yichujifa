@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="4" save="var"/>
+    <hr/>
+    <input title="文本数据" inputType="string" defult="" hint="请输入" save="text"/>
+    <hr/>
+    <input title="左边文本" inputType="string" defult="" hint="请输入" save="left"/>
+    <hr/>
+    <input title="右边文本" inputType="string" defult="" hint="请输入" save="right"/>
+</root>

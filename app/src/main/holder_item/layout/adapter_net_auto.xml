@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/click_item"
+    android:padding="8dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/icon_56"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="This is title"
+                android:textColor="#000"
+                android:textSize="12dp"
+                android:id="@+id/auto_title"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="0KB"
+            android:textSize="10dp"
+            android:id="@+id/auto_size"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="This is content"
+            android:textSize="10dp"
+            android:id="@+id/auto_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:text="下载"
+        android:layout_marginLeft="8dp"
+        android:layout_width="60dp"
+        android:id="@+id/download"
+        android:background="@drawable/login_btn"
+        android:textColor="#fff"
+        android:layout_height="35dp" />
+</LinearLayout>

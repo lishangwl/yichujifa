@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="7" save="var"/>
+    <hr/>
+    <input title="左边" inputType="int" defult="" hint="请输入" save="left"/>
+    <hr/>
+    <input title="顶边" inputType="int" defult="" hint="请输入" save="top"/>
+    <hr/>
+    <input title="宽度" inputType="int" defult="" hint="请输入" save="width"/>
+    <hr/>
+    <input title="高度" inputType="int" defult="" hint="请输入" save="height"/>
+</root>

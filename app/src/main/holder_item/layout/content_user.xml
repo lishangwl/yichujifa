@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    app:behavior_overlapTop="240dp"
+    tools:showIn="@layout/activity_user">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            app:navigationIcon="@mipmap/ic_back"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_marginTop="15dp"
+            android:fitsSystemWindows="false"
+            android:layout_height="55dp">
+
+        </androidx.appcompat.widget.Toolbar>
+        <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+            android:layout_width="70dp"
+            android:id="@+id/userHead"
+            android:layout_marginTop="135dp"
+            android:src="@drawable/user_head"
+            android:layout_height="70dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="用户名"
+                android:textSize="18dp"
+                android:id="@+id/userName"
+                android:textColor="#000"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="18dp"
+                android:src="@drawable/sex_0"
+                android:id="@+id/userSex"
+                android:layout_marginLeft="5dp"
+                android:layout_height="18dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ta很神秘，什么都没留下~~"
+            android:id="@+id/userDesc"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="被关注0次 | 被赞0次 | 被打赏0次"
+            android:id="@+id/userFollow"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_margin="56dp"
+            android:textColor="#fff"
+            android:text="关注"
+            android:background="@drawable/login_btn"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

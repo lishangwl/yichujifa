@@ -1,0 +1,172 @@
+<resources>
+    <string name="my_app_name">一触即发</string>
+
+    <string name="home_bottom_nav_navigation">导航</string>
+    <string name="home_bottom_nav_auto">自动化</string>
+    <string name="home_bottom_nav_community">社区</string>
+    <string name="home_bottom_nav_setting">管理</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+      "<b>开发背景</b><br />"
+        "\n随着科技发展和进步，手机已经成为人们生活必不可少的一部分，据调查显示，60%的用户每天花在手机上的时间为6-8个小时，而这其中大部分对手机的操作或动作都是重复的(比如: 打开微信朋友→找到微信图标--打开一- 发现一-点击朋友圈，至少要4个动作才能完成),为了解决这个问，给用户节省更多的时间，我们特意开发了这款自动化工具，将用户每天重复的一连串动作最终变成一个动作，只需一键操作即可达到用户 的操作目的!\n\n"
+        "<b>什么是自动化?</b>"
+
+      "\n自动化就是在用户授权并了解的情况下，创建一组连续的动作指令，然后生成一个触发该动作的入口(手动触发，时间触发，事件触发) ,然后在满足触发的条件下，用户所设定的条件动作会依次执行。举个例子:用户将打开朋友圈的几个动作组合成“-键访问朋友圈”的自动化，那么用户以后每天只需要手动点击这个自动化并可以快速打开朋友圈，而无需点击重复的的动作。\n\n"
+
+        "<b>能干什么</b>?"
+
+      "\n1.将复杂的动作组合，然后-键触发\n"
+
+      "2.APP稳定性测试(通过不断模拟循环点击)\n"
+        "3.辅助老人或小孩快速使用手机功能\n"
+        "4.定时执行用户设定的功能\n"
+
+      "5. 辅助游戏中自动点击某个固定位置.\n\n"
+
+        "<b>应用场景?</b>"
+"\n1.- 键打开微信朋友 圈2.-键清除最近任务列表3.打开蓝牙并播放音乐\n"
+"4.关闭飞行模式并设置闹钟5.自由组合其他功能.....\n\n"
+
+
+"<b>如何创建?</b>"
+"\n1.点击“添加自动化\n"
+"2.输入名称，重复次数和触发方式3.点击“点击动作”\n"
+"4.滑动悬浮按钮，并点击选择对应功能5.点击返回，修改指令间延时或备注5.点击保存\n\n"
+
+        "<b>查看详情</b>"
+"\n如何触发?如何中断?\n"
+"1.手动触发:点击自动化列表最左侧图标2.时间触发:时间到达后自动触发\n"
+"3.语音触发:直接说出自动化的名称即可4.悬浮按钮:通过悬浮按钮进行绑定后触发\n\n"
+
+
+        "<b>了解自动化</b>"
+"\n适用系统?\n"
+"建议在Android 7.0以上系统使用，7.0以下系统目前还不能模拟点击某个固定坐标位置或者模拟滑动手势\n\n"
+
+"<b>是否要ROOT?</b>"
+"\n这是一款真正意义上的免ROOT自动化工具，用户只需要开启辅助功能(无障碍功能)即可。\n\n"
+
+
+"<b>是否安全?</b>"
+"\n目前涉及到的应用授权都是在用户可见和同意的情况下进行的，包括设置自动化也是用户自由设置的，而且所有数据都保存在本地，所以并不存在安全问题。当然,如果你发现本应用有任何影响手机安全问题的后台进程，欢迎随时举报(小编目前还没能力和胆量去干这些违法的事情(’V 9))。\n\n"
+
+"<b>其他问题?</b>"
+"\n如何中断自动化:长按音量上键2秒左右即可中断执行中的自动化。如果您在使用该app过程中遇到问题，或者有好的想法和意见，欢迎随时联系小编，以下是小编的QQ405452636\n\n"
+
+    </string>
+    <string name="text_1">1.	将复杂的动作组合，然后一键触发（蚂蚁森林收能量等）
+\n2.	APP稳定性测试(通过不断模拟循环点击)
+\n3.	辅助老人或小孩快速使用手机功能（如打开收款二维码等）
+\n4.	定时执行用户设定的功能，如（定时给某人发微信或者QQ：早安）
+\n5.辅助游戏中自动点击某个固定位置....（复活甲秒换名刀）
+\n6.	关闭飞行模式并设置闹钟（语音唤醒后支持语音设置）
+\n7.	自由组合其他功能...（新闻软件自动阅读、引流脚本私信）
+</string>
+    <string name="text_2">1.点击“添加自动化”
+\n2.输入名称，重复次数和触发方式
+\n3.点击悬浮按钮，并点击选择对应功能
+\n4.点击返回，修改指令间延时或备注
+\n5.点击保存
+</string>
+    <string name="text_3">1.手动触发:点击自动化列表最左侧图标
+\n2.时间触发:时间到达后自动触发
+\n3.状态栏触发:点击状态栏即可
+\n4.悬浮按钮:通过悬浮按钮进行绑定后触发
+</string>
+    <string name="version">
+        版本号 V2.4.1 内测版 By BGG
+    </string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="fix_bar_behavir">esqeee.xieqing.com.eeeeee.widget.ScrollingViewBehavior</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_broswer">BroswerActivity</string>
+    <string name="title_activity_main6">Main6Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string name="access">一触即发要求必须开启此功能，否则将无法正常使用.  由于Android系统要求软件每次使用该功能都需要重新打开一次，因此需要时打开即可.只要不关闭后台 程序都可执行.</string>
+</resources>

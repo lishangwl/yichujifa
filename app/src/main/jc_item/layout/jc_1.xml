@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:id="@+id/item"
+            android:background="@drawable/click_item"
+            android:layout_height="45dp">
+            <ImageView
+                android:src="@mipmap/ic_jc_1"
+                android:layout_width="20dp"
+                android:visibility="gone"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="了解本应用"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/text_2"
+                android:textSize="15dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/ic_right"
+                android:layout_weight="0"
+                android:id="@+id/ex"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:text="本应用是一款无需root就可进行脚本操作（自动操作手机），且具备脚本自动操作、编写、导出分享的一款强大应用"
+            android:textColor="#90000000"
+            android:id="@+id/text_1"
+            android:textSize="13dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="4" save="var"/>
+    <hr/>
+    <input title="用作分割的文本" inputType="string" defult="" hint="请输入" save="split"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入待分割的数据" save="text"/>
+</root>

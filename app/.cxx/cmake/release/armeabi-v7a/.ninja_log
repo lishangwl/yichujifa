@@ -1,0 +1,6 @@
+# ninja log v5
+0	374	661445536	CMakeFiles/app.dir/src/main/cpp/app.cpp.o	a98b2d00bf6d558d
+375	606	661445537	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libapp.so	f90e8b3204854f00
+0	13	0	clean	3baa9f8d2e4acd6
+0	10	0	clean	3baa9f8d2e4acd6
+0	11	0	clean	3baa9f8d2e4acd6

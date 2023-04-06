@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#F4F4F4"
+    android:paddingTop="8dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/image"
+            android:layout_height="50dp" />
+        <View
+            android:layout_width="1dp"
+            android:background="#868686"
+            android:layout_margin="3dp"
+            android:layout_height="16dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1秒之后"
+                android:id="@+id/witeTime"
+                android:textSize="10dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@mipmap/ic_write"
+                android:padding="3dp"
+                android:id="@+id/witeTimeWrite"
+                android:layout_marginLeft="8dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:background="#868686"
+            android:layout_margin="3dp"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="单击"
+            android:textColor="#000"
+            android:id="@+id/name"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="单击"
+            android:textSize="12dp"
+            android:visibility="gone"
+            android:id="@+id/desc"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:src="@mipmap/ic_delete"
+        android:id="@+id/delete"
+        android:layout_height="40dp" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_write"
+        android:id="@+id/edit"
+        android:layout_height="40dp" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@mipmap/ic_menu"
+        android:id="@+id/menu"
+        android:layout_height="40dp" />
+</LinearLayout>

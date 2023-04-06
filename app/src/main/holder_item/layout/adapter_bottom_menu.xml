@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorAccent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/menu_item"
+        android:id="@+id/item_copy"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@color/white"
+            android:src="@mipmap/ic_copyaction"
+            android:padding="2dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:text="复制"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/menu_item"
+        android:id="@+id/item_cut"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@color/white"
+            android:src="@mipmap/ic_cut"
+            android:padding="2dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:text="剪切"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/item_delete"
+        android:background="@drawable/menu_item"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@color/white"
+            android:src="@mipmap/ic_delete"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:text="删除"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/item_cannel"
+        android:background="@drawable/menu_item"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="25dp"
+            android:tint="@color/white"
+            android:src="@mipmap/ic_close"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:text="取消"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

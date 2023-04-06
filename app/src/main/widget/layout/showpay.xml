@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/dabaixiaodian"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="微信搜索小程序：大白的小店\n或者使用微信扫一扫小程序码进行支付购买会员\n支付成功后请复制卡密联系QQ1470994314开通账号会员"
+        android:layout_height="wrap_content" />
+</LinearLayout>

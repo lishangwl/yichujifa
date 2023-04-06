@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Xieqing/androidStudioWorkspace/yichujifa/app/.cxx/cmake/debug/x86",
+  "command": "C:\\Users\\Public\\AppData\\SDK\\android-ndk-r17c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android --gcc-toolchain=C:/Users/Public/AppData/SDK/android-ndk-r17c/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Public/AppData/SDK/android-ndk-r17c/sysroot  -Dapp_EXPORTS -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/android/support/include -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include  -isystem C:/Users/Public/AppData/SDK/android-ndk-r17c/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fvisibility=hidden -mllvm -fla -mllvm -sub -mllvm -seed=0xdeadbeafdddddddddddddddddddddd -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\app.dir\\src\\main\\cpp\\app.cpp.o -c D:\\Xieqing\\androidStudioWorkspace\\yichujifa\\app\\src\\main\\cpp\\app.cpp",
+  "file": "D:/Xieqing/androidStudioWorkspace/yichujifa/app/src/main/cpp/app.cpp"
+}
+]

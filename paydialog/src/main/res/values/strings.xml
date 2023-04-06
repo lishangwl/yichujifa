@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ModuleTest</string>
+    <string name="common_input_pwd_title">请输入支付密码</string>
+    <string name="common_withdraw_prompt1">提现成功后，</string>
+    <string name="common_withdraw_prompt2">个工作日之内钱款会打到您的微信钱包</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_certain">确定</string>
+    <string name="common_choose_month">选择月份</string>
+    <string name="common_pay_info">付款详情</string>
+    <string name="common_cn_yuan">元</string>
+    <string name="common_need_to_pay">需要支付的金额</string>
+    <string name="common_wx_pay">微信支付</string>
+    <string name="common_wx_pay_context">推荐安装微信的用户使用</string>
+    <string name="common_ali_pay">支付宝支付</string>
+    <string name="common_ali_pay_context">推荐安装支付宝的用户使用</string>
+    <string name="common_balance_pay">QQ钱包支付</string>
+    <string name="common_balance_pay_context">推荐安装腾讯QQ的用户使用</string>
+    <string name="common_balance_not_enough_context">余额不足，当前余额</string>
+    <string name="common_pay">确认付款</string>
+</resources>

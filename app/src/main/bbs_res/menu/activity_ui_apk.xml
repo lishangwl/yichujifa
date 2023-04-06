@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/help" android:title="帮助" app:showAsAction="always"></item>
+    <item android:id="@+id/config" android:title="配置" app:showAsAction="always"></item>
+    <item android:id="@+id/bao" android:title="打包" app:showAsAction="always"></item>
+</menu>

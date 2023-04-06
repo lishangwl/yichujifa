@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="access" translatable="false">一触即发要求必须开启此功能，否则将无法正常使用.\n由于Android系统要求软件每次使用该功能都需要重新打开一次，因此需要时打开即可\n只要不关闭后台 程序都可执行.</string>
+</resources>

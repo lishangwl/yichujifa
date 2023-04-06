@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item
+        android:id="@+id/item_notic"
+        android:title="发送到通知栏"/>
+    <item
+        android:id="@+id/item_float"
+        android:title="添加单独悬浮窗"/>
+    <item
+        android:id="@+id/item_shortcut"
+        android:title="创建快捷方式"/>
+    <item android:title="更多操作">
+       <menu>
+            <item
+                android:id="@+id/item_rename"
+                android:title="重命名"/>
+            <item
+                android:id="@+id/item_share"
+                android:title="分享"/>
+           <item
+               android:id="@+id/item_copy"
+               android:title="复制"/>
+           <item
+               android:id="@+id/item_move"
+               android:title="移动"/>
+            <item
+                android:id="@+id/item_delete"
+                android:title="删除"/>
+        </menu>
+    </item>
+
+</menu>

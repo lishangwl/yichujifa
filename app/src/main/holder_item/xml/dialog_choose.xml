@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <input title="标题" inputType="string" defult="" hint="选填" save="title"/>
+    <hr/>
+    <var title="选择返回变量" varType="1" save="var"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入选择项，一行一个" save="text"/>
+</root>

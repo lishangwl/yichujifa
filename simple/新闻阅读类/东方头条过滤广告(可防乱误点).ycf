@@ -1,0 +1,6 @@
+<title>东方头条过滤广告(可防乱误点)</title>
+<repeat>1</repeat>
+<count>2</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A56%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%22text%22%3A%22%E4%BB%A5%E4%B8%8B%E6%80%9D%E8%B7%AF%E4%BB%85%E4%BE%9B%E5%8F%82%E8%80%83%EF%BC%8C%E5%85%B7%E4%BD%93%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95%E6%9C%89%E5%A4%9A%E7%A7%8D%E3%80%82%22%7D%7D%2C%7B%22actionType%22%3A52%2C%22witeTime%22%3A0%2C%22param%22%3A%7B%7D%2C%22trueDo%22%3A%7B%22actions%22%3A%5B%7B%22actionType%22%3A9%2C%22witeTime%22%3A2000%2C%22param%22%3A%7B%7D%7D%5D%7D%2C%22condition%22%3A%7B%22actionType%22%3A44%2C%22param%22%3A%7B%22text%22%3A%22%E5%B9%BF%E5%91%8A%22%7D%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

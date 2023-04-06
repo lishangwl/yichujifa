@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="holder_item_height">70dp</dimen>
+    <dimen name="holder_item_padding">10dp</dimen>
+    <dimen name="holder_item_title_size">16sp</dimen>
+
+    <style name="holder_item_title_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="holder_item_summay_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColor">#868686</item>
+    </style>
+</resources>

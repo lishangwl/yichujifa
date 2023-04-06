@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/item_1"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/click_item"
+                android:paddingLeft="16dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="图标(点击更换)"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <esqeee.xieqing.com.eeeeee.widget.CircleImageView
+                    android:layout_width="40dp"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/action_1"
+                    android:layout_weight="0"
+                    android:id="@+id/icon"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:layout_width="35dp"
+                    android:src="@mipmap/ic_right"
+                    android:layout_weight="0"
+                    android:layout_height="35dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="16dp"
+                android:background="#e4e4e4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/item_2"
+                android:gravity="center_vertical"
+                android:background="@drawable/click_item"
+                android:paddingLeft="16dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="触发条件"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="right"
+                    android:id="@+id/condition"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="35dp"
+                    android:src="@mipmap/ic_right"
+                    android:layout_weight="0"
+                    android:layout_height="35dp" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="16dp"
+                android:background="#e4e4e4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/item_4"
+                android:gravity="center_vertical"
+                android:background="@drawable/click_item"
+                android:paddingLeft="16dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="不输出系统日志"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:id="@+id/logable"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="16dp"
+                android:background="#e4e4e4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/item_5"
+                android:gravity="center_vertical"
+                android:background="@drawable/click_item"
+                android:paddingLeft="16dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="自动缩放屏幕大小"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:id="@+id/scaleable"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="16dp"
+                android:background="#e4e4e4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/click_item"
+                android:paddingLeft="16dp"
+                android:layout_height="70dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="缩放尺寸"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:hint="宽度"
+                        android:inputType="number"
+                        android:id="@+id/scale_width"
+                        android:layout_margin="0dp"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:hint="高度"
+                        android:inputType="number"
+                        android:id="@+id/scale_height"
+                        android:layout_margin="0dp"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="16dp"
+                android:background="#e4e4e4"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="执行次数（0则无限循环）"
+                    android:text="1"
+                    android:inputType="number"
+                    android:id="@+id/repeat"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

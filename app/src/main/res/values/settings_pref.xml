@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="textScanType">
+        <item>控件识别</item>
+        <item>OCR识别</item>
+    </string-array>
+    <string-array name="textScanValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <esqeee.xieqing.com.eeeeee.view.MyWebView
+                android:layout_width="match_parent"
+                android:id="@+id/webView"
+                android:layout_height="match_parent"/>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_add"
+            android:layout_gravity="right|bottom"
+            android:id="@+id/floatButton"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"
+            android:tint="@color/white"
+            android:layout_marginBottom="65dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

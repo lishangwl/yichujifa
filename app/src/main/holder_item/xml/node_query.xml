@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <var title="赋值变量" varType="6" save="var"/>
+    <hr/>
+    <segment title="查询方式" texts="ID|内容|Class|Desc" save="type" defult="0"/>
+    <hr/>
+    <texteara inputType="string" defult="" hint="请输入查询参数" save="text"/>
+</root>

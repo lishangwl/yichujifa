@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:id="@+id/condition_item"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/condition_item_contianor"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@mipmap/ic_more"
+        android:padding="9dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/condition_more"
+        android:layout_height="40dp" />
+</RelativeLayout>

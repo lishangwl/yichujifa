@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="esqeee.xieqing.com.eeeeee.MainActivity">
+    <item
+        android:id="@+id/item_delete"
+        android:title="删除动作"
+        android:icon="@drawable/scan" />
+    <item
+        android:id="@+id/item_enable"
+        android:title="禁止动作"
+        android:icon="@drawable/scan" />
+    <item
+        android:id="@+id/item_add"
+        android:title="在该动作后面添加动作"/>
+    <item
+        android:id="@+id/item_edit"
+        android:title="修改备注"/>
+    <item
+        android:id="@+id/item_copy"
+        android:title="复制该动作"/>
+    <item
+        android:id="@+id/item_cut"
+        android:title="剪切该动作"/>
+    <item
+        android:id="@+id/item_paste"
+        android:title="在该动作后面粘贴动作"/>
+
+</menu>

@@ -1,0 +1,6 @@
+<title>模拟长按此处</title>
+<repeat>1</repeat>
+<count>1</count>
+<data>%7B%22actions%22%3A%5B%7B%22actionType%22%3A16%2C%22witeTime%22%3A800%2C%22param%22%3A%7B%22x%22%3A854%2C%22y%22%3A165%7D%7D%5D%7D</data>
+<status>0</status>
+<type>0</type>

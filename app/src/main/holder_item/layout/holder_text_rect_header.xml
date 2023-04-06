@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/click_item"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="识别范围"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content" />
+        <com.sevenheaven.segmentcontrol.SegmentControl
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/rect"
+            app:selectedColor="@color/colorAccent"
+            app:normalColor="#FFFFFF"
+            app:cornerRadius="5dp"
+            app:separatorWidth="2px"
+            app:boundWidth="2px"
+            app:texts="全屏|区域"
+            app:verticalGap="10dp"
+            app:horizonGap="10dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

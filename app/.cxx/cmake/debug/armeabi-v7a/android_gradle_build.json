@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "E:/OneOne/Projects/Android/AndroidProjects/yichujifaOpenSourece/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi19 --gcc-toolchain=E:/OneOne/File/Android/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/OneOne/File/Android/AndroidSDK/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapp_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\OneOne\\File\\Android\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "E:\\OneOne\\File\\Android\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "app-Debug-armeabi-v7a": {
+      "buildCommand": "E:\\OneOne\\File\\Android\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" app",
+      "buildType": "debug",
+      "toolchain": "3247392500",
+      "abi": "armeabi-v7a",
+      "artifactName": "app",
+      "files": [
+        {
+          "src": "E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\src\\main\\cpp\\app.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "E:\\OneOne\\Projects\\Android\\AndroidProjects\\yichujifaOpenSourece\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libapp.so"
+    }
+  },
+  "toolchains": {
+    "3247392500": {
+      "cppCompilerExecutable": "E:\\OneOne\\File\\Android\\AndroidSDK\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

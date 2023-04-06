@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esqeee.xieqing.com.eeeeee.widget.HVScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="esqeee.xieqing.com.eeeeee.ui.CodeCovertActivity"
+    tools:showIn="@layout/activity_code_covert">
+    <tiiehenry.code.view.CodeEditor
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:background="#00000000"
+        android:text=" var i = 111"
+        android:layout_height="match_parent" />
+</esqeee.xieqing.com.eeeeee.widget.HVScrollView>

@@ -1,0 +1,184 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.yicu.yichujifa"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 106
+        versionName "2.9.6"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+        sourceSets {
+            main {
+                aidl.srcDirs = ['src/main/java']
+                res.srcDirs = [
+                        'src/main/holder_item',
+                        'src/main/bbs_res',
+                        'src/main/jc_item',
+                        'src/main/widget',
+                        'src/main/res'
+                ]
+            }
+        }
+
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+
+
+//        externalNativeBuild {
+//            cmake {
+//                cppFlags "-fvisibility=hidden -mllvm -fla -mllvm -sub -mllvm -seed=0xdeadbeafdddddddddddddddddddddd"
+//            }
+//        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //minifyEnabled true
+            //shrinkResources true
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildToolsVersion '29.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+        //禁止检查resource
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+    }
+
+
+    externalNativeBuild {
+        cmake {
+            path file('CMakeLists.txt')
+        }
+    }
+}
+configurations.all {
+    resolutionStrategy.force 'com.android.support:recyclerview-v7:27.1.1'
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                //这里指定需要统一的依赖版本,这里统一为27.1.1，这里以27.1.1为例
+                details.useVersion '27.1.1'
+            }
+        }
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar', '*.so'], dir: 'libs')
+    api('androidx.appcompat:appcompat:1.3.1', {
+        exclude group: 'com.android.support'
+    })
+    api('androidx.multidex:multidex:2.0.0', {
+        exclude group: 'com.android.support'
+    })
+    api('com.google.android.material:material:1.0.0', {
+        exclude group: 'com.android.support'
+    })
+    api('androidx.legacy:legacy-support-v4:1.0.0', {
+        exclude group: 'com.android.support'
+    })
+    api('androidx.vectordrawable:vectordrawable:1.0.0', {
+        exclude group: 'com.android.support'
+    })
+    api('androidx.cardview:cardview:1.0.0', {
+        exclude group: 'com.android.support'
+    })
+    api('androidx.recyclerview:recyclerview:1.0.0', {
+        exclude group: 'com.android.support'
+    })
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.kongzue.dialog:dialog:2.5.2'
+    //implementation 'com.kongzue.dialog:dialog:2.4.7'
+    //implementation 'com.kongzue.dialogx:DialogX:0.0.29'
+    //implementation 'com.kongzue.dialog_v3:dialog:3.2.4'
+    implementation 'com.squareup.okhttp3:okhttp:4.0.1'
+    implementation 'com.github.hyb1996:OpenCvLib:2.4.13.4-imgproc'
+
+    //implementation 'com.umeng.umsdk:analytics:7.5.4'
+    //implementation 'com.umeng.umsdk:common:1.5.4'
+
+    implementation  'com.umeng.umsdk:common:9.4.0'// 必选
+    implementation  'com.umeng.umsdk:asms:1.2.3'// 必选
+    implementation 'com.umeng.umsdk:apm:1.4.0' // 错误分析升级为独立SDK，看crash数据请一定集成，可选
+    implementation  'com.umeng.umsdk:abtest:1.0.0'//使用U-App中ABTest能力，可选
+
+    implementation project(':codeutils')
+    implementation project(':dialoglib')
+    implementation project(':filechooser')
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+    //implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.github.yuzhiqiang1993:zxing:2.2.7'
+    implementation 'me.yokeyword:swipebackfragment:0.4.0'
+    implementation 'com.github.traex.expandablelayout:library:1.3'
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
+    implementation project(':matisse')
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+//    api('com.jakewharton:butterknife:8.6.0', {
+//        exclude group: 'com.android.support'
+//    })
+//    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+
+    //引入ButterKnife
+    implementation "com.jakewharton:butterknife:10.0.0"
+    annotationProcessor "com.jakewharton:butterknife-compiler:10.0.0"
+
+//    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:4.0.3"
+//    implementation 'com.github.Raizlabs.DBFlow:dbflow-core:4.0.3'
+//    implementation 'com.github.Raizlabs.DBFlow:dbflow:4.0.3'
+
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:4.2.4"
+    implementation 'com.github.Raizlabs.DBFlow:dbflow-core:4.2.4'
+    implementation 'com.github.Raizlabs.DBFlow:dbflow:4.2.4'
+
+
+    //implementation 'com.liyi.view:flowview:1.2.2'
+    implementation 'ch.ielse:switchbutton:1.0.1'
+    implementation 'com.7heaven.widgets:segmentcontrol:1.17'
+    implementation 'org.w3c:dom:2.3.0-jaxb-1.0.6'
+    implementation 'com.github.douglasjunior:android-simple-tooltip:0.2.2'
+    implementation project(':CodeEditor')
+    implementation project(':apkbuilder')
+    implementation project(':settingsview')
+    implementation project(':flowview')
+    implementation project(path: ':inputborad')
+    implementation 'com.github.SuperKotlin:PictureViewer:2.0.1'
+    implementation 'com.madgag.spongycastle:bcpkix-jdk15on:1.56.0.0'
+    implementation project(path: ':paydialog')
+    implementation project(path: ':xqapppay')
+    implementation files('libs/mqqopenpay.jar')
+    implementation (name: 'alipaySdk-15.7.5-20200422171619', ext: 'aar')
+
+    //statusbarutil https://github.com/laobie/StatusBarUtil
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
+
+    //utilcode https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+    implementation 'com.blankj:utilcode:1.30.6'
+
+    //implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+
+    //implementation 'com.github.li-xiaojun:XPopup:2.6.6'
+}
